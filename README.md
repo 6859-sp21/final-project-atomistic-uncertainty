@@ -1,1 +1,11 @@
-# final-project-starter-code
+# Visualizing Uncertainty in Molecular Simulation
+
+Machine learning (ML) methods are becoming ubiquitous in many fields, from physical sciences to health care. Among the many concerns of deploying these models into the real world are evaluating their reliability, interpretability, and robustness. While tasks such as classification often benefit from having a discrete set of options to predict, regressor models have a wide spectrum of possible outcomes, particularly when the models are in the extrapolation regime. One way to prevent misleading predictions is quantifying uncertainty in regression tasks. However, adding one extra degree of freedom to these models often adds an extra burden to the developers and users, and may hinder the interpretability of the outcomes.
+
+In this final project, we will focus on visualizing uncertainty in ML models for physical sciences. In particular, we will address the problem of uncertainty quantification in atomistic simulations using ML force fields. Although parametrizing interatomic interactions is a decades-old field, no work has addressed the visualization of uncertainty in this area. The high-dimensional input space coupled with the diversity of molecular conformations prevents clarity in these representations and hinders interpretability. 
+
+To promote a better understanding of these issues, we will tell an animated story on the interplay of molecular simulations and uncertainty. Building on [a paper by one of us](https://arxiv.org/abs/2101.11588), whose code and data are publicly available [here](https://github.com/learningmatter-mit/Atomistic-Adversarial-Attacks), we will animate static figures representing potential energy surfaces and molecular simulations using a “scrolly-telling” narrative. The story will walk the viewer through the thought process of adding uncertainty to the simulations, and how the final results can benefit from these features. This project will raise awareness for the importance of interpretability and error detection in ML models for physical simulations.
+
+Our team is: Aik Jun Tan, Franklin Morgan, and Daniel Schwalbe-Koda. The webpage is found on [this link](https://6859-sp21.github.io/final-project-atomistic-uncertainty)
+
+
